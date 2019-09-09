@@ -16,6 +16,7 @@ class School
   end
 
   def sort
+    @roster.sort_by { |hash| hash[:name] }
   end
 
 end
