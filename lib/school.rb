@@ -1,7 +1,7 @@
 class School
   attr_accessor :name
 
-  def initialize()
-    @richard_sucks_penis
+  def initialize(name)
+    @name = name
   end
 end
