@@ -19,6 +19,7 @@ class School
     sorted_hash = {}
     @roster.each do |grade, student|
       sorted_hash[grade] = student
+    end
 
     end
 
